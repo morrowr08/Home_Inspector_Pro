@@ -1,0 +1,400 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ingred",
+				"ingredient_id"
+			],
+			[
+				"ingre",
+				"ingredient_id"
+			],
+			[
+				"ing",
+				"ingredient_id"
+			],
+			[
+				"se",
+				"serializeArray"
+			],
+			[
+				"instrution",
+				"instruction_values"
+			],
+			[
+				"instru",
+				"instruction_values"
+			],
+			[
+				"recipe",
+				"recipe_instructions"
+			],
+			[
+				"html",
+				"htmlentities"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/FerrousOxide/Sites/arewolf/_config.yml",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/FerrousOxide/Sites/arewolf/_posts/2014-11-25-hello-world.markdown",
+			"settings":
+			{
+				"buffer_size": 303,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/FerrousOxide/Sites/arewolf",
+		"/Users/FerrousOxide/Sites/arewolf/_layouts",
+		"/Users/FerrousOxide/Sites/arewolf/_posts",
+		"/Users/FerrousOxide/Sites/arewolf/_sass",
+		"/Users/FerrousOxide/Sites/arewolf/css"
+	],
+	"file_history":
+	[
+		"/Users/FerrousOxide/Sites/arewolf/notes.haml",
+		"/Users/FerrousOxide/Sites/arewolf/_layouts/post.html",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/controllers/dashboard/home.php",
+		"/Users/FerrousOxide/Sites/woodenladle/app/controllers/users/logout.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/controllers/ingredients/ingredient_remove.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/controllers/users/login.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/controllers/users/create_user.php",
+		"/Users/FerrousOxide/Sites/woodenladle/app/controllers/dashboard/about.php",
+		"/Users/FerrousOxide/Sites/woodenladle/app/controllers/dashboard/deals.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/templates/primary_header.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/controllers/dashboard/grocery_list.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/js/main.js",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/models/user.class.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/controllers/dashboard/contact.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/index.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/utilities/validator.class.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/controllers/users/process_user.php",
+		"/Users/FerrousOxide/Sites/woodenladle/app/models/grocery.class.php",
+		"/Users/FerrousOxide/Sites/woodenladle/app/controllers/grocery_list/grocery_remove.php",
+		"/Users/FerrousOxide/Sites/woodenladle/app/controllers/grocery_list/grocery_add.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/models/ingredient.class.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/templates/master.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/app_settings.php",
+		"/Users/FerrousOxide/Sites/localhost/project4/tests.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/chosen/index.html",
+		"/Users/FerrousOxide/Sites/woodenladle/app/controllers/ingredients/ingredient_add.html",
+		"/Users/FerrousOxide/Sites/woodenladle/app/controllers/recipes/test.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/css/styles.css",
+		"/Users/FerrousOxide/Sites/WoodenLadle/chosen/chosen.jquery.js",
+		"/Users/FerrousOxide/Sites/WoodenLadle/planning/tables.sql",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/utilities/view_fragment.class.php",
+		"/Users/FerrousOxide/Sites/woodenladle/app/controllers/recipes/recipe_card.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/images/graphic_design.png",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/utilities/recipe_view_fragment.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/app/views/default_view.class.php",
+		"/Users/FerrousOxide/Sites/WoodenLadle/.gitignore",
+		"/Users/FerrousOxide/Sites/WoodenLadle/#Business Rules.mdown",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/invoice/remove.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/home.php",
+		"/Users/FerrousOxide/Sites/mvc/app/templates/primary_header.php",
+		"/Users/FerrousOxide/Sites/mvc/css/styles.scss",
+		"/Users/FerrousOxide/Sites/mvc/css/styles.css",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/invoice/insert.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/invoice/list.php",
+		"/Users/FerrousOxide/Sites/mvc/app/utilities/invoice_view_fragment.class.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/customers/list.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/login.php",
+		"/Users/FerrousOxide/Sites/mvc/app/utilities/customer_login.class.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/products/process_form.php",
+		"/Users/FerrousOxide/Sites/mvc/app/core/router.class.php",
+		"/Users/FerrousOxide/Sites/mvc/app/models/invoice.class.php",
+		"/Users/FerrousOxide/Sites/mvc/package.json",
+		"/Users/FerrousOxide/Sites/mvc/bower_components/modernizr/feature-detects/pointerlock-api.js",
+		"/Users/FerrousOxide/Sites/mvc/app/models/product.class.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/products/list.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/products/form.php",
+		"/Users/FerrousOxide/Sites/mvc/app/app_settings.php",
+		"/Users/FerrousOxide/Sites/mvc/app/utilities/product_view_fragment.class.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/products/remove.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/products/insert.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/customers/process_form.php",
+		"/Users/FerrousOxide/Sites/mvc/app/controllers/customers/form.php",
+		"/Users/FerrousOxide/Sites/dba/config.inc.php",
+		"/Users/FerrousOxide/Sites/localhost/project4/php/customers.php",
+		"/Users/FerrousOxide/Sites/localhost/project4/php/edit_customer.php",
+		"/Users/FerrousOxide/Sites/localhost/project4/php/invoices.php",
+		"/Users/FerrousOxide/Sites/localhost/project4/php/items.php",
+		"/Users/FerrousOxide/Sites/localhost/project4/php/new_invoice.php",
+		"/Users/FerrousOxide/Sites/example/index.php",
+		"/Users/FerrousOxide/Hosts/example.conf",
+		"/Library/WebServer/Documents/test.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"owl",
+			"hover",
+			" )",
+			"add",
+			"product_view_fragment",
+			"firstname",
+			"gender",
+			"lastname",
+			"firstname",
+			"Customer",
+			"customer",
+			"Customer",
+			"customer",
+			"Customer",
+			"customer",
+			"customer_id",
+			"= ",
+			"customer_view_fragment",
+			"customer_id",
+			"customer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/FerrousOxide/Sites/arewolf/_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								505,
+								505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/FerrousOxide/Sites/arewolf/_posts/2014-11-25-hello-world.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "arewolf.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"user",
+				"app/models/user.class.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/mvc/mvc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,607 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: box-border;
+	text-decoration: none;
+	font-family: lato;
+}
+
+html {
+	color: rgb(3, 3, 3);
+	background-color: rgb(230, 230, 230);
+}
+
+textarea:focus, input:focus {
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #41A6CB;
+	cursor: pointer;
+}
+
+button {
+	color: rgb(245, 245, 245);
+	border: none; 
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: rgba(65, 166, 203, 0.75);
+	box-shadow: 0 0 30px -15px #000000;
+	outline: 0;
+	cursor: pointer; 
+}
+
+/********************/
+/*  Header Section  */
+/********************/
+
+header {
+	background: radial-gradient(transparent, rgba(65, 166, 203, .65)), url("/images/hip_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 11%;
+}
+
+header div.top-nav {
+ 	background-color: #F1F1F1; 
+}
+
+.header-format {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.top-nav .header-format {
+	position: relative;
+	padding: 5px;
+}
+
+.logo {
+	height: 50px;
+	display: inline-block;
+	color: rgb(10, 10, 10);
+	padding: 5px;
+	font-size: 24pt;
+	vertical-align: bottom;
+}
+
+.logo img {
+	width: 50px;
+	height: 50px;
+	/*margin-right: -14px;*/
+	margin-bottom: -1px;
+}
+
+.header-login {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.header-login a:last-child {
+	color: rgb(245, 245, 245);
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: rgba(65, 166, 203, 0.75);
+	box-shadow: 0 0 30px -15px #000000;
+}
+
+header div.main-nav {
+	background-color: rgba(65, 166, 203, 0.75);
+}
+
+.main-nav nav {
+	text-align: right;
+}
+
+.main-nav nav a {
+	padding: 10px 15px;
+	font-size: 14pt;
+	color: #F1F1F1;
+	display: inline-block;
+	outline: none;
+}
+
+.main-nav nav a:hover {
+	background-color: #F1F1F1;
+	color: #41A6CB;
+}
+
+.hero div {
+	min-height: 200px;
+}
+
+/***********************/
+/*  Home Page Section  */
+/***********************/
+
+main {
+	background-color: #F1F1F1;
+}
+
+main > div {
+	margin: 0 auto;
+	width: 960px;
+	padding: 20px 5px;
+}
+
+.breakouts {
+	text-align: center;
+	position: relative;
+}
+
+.break1 {
+	background-color: rgb(250,250,250);
+	display: inline-block;
+	width: 250px;
+	min-height: 200px;
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+	vertical-align: top;
+}
+
+.break1 img {
+	height: 100px;
+	width: 200px;
+	padding-top: 15px;
+}
+
+.break1 div {
+	background-color: rgb(65, 166, 203);
+	width: 235px;
+	position: absolute;
+	color: rgb(250, 250, 250);
+	font-size: 9.5pt;
+	text-align: left;
+	padding: 5px 5px 5px 10px;
+	bottom: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px; 
+}
+
+.break2 {
+	background-color: rgb(250,250,250);
+	display: inline-block;
+	width: 250px;
+	margin: 0 10px;
+	min-height: 200px;
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+	vertical-align: top;
+}
+
+.break2 img {
+	height: 120px;
+	width: 110px;
+	padding-top: 5px;
+}
+
+.break2 div {
+	background-color: rgb(65, 166, 203);
+	width: 235px;
+	min-height: 53px;
+	position: absolute;
+	color: rgb(250, 250, 250);
+	font-size: 9.5pt;
+	text-align: left;
+	padding: 12px 5px 5px 10px;
+	bottom: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px; 
+}
+
+.break3 {
+	background-color: rgb(250,250,250);
+	display: inline-block;
+	width: 400px;
+	min-height: 200px;
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+	vertical-align: top;
+}
+
+.break3 div:first-child {
+	background-color: rgba(5, 5, 5, 0.75);
+	width: 390px;
+	position: absolute;
+	color: rgb(250, 250, 250);
+	font-size: 14pt;
+	text-align: center;
+	padding: 5px;
+	top: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+}
+
+.break3 img {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin-top: 35px;
+}
+
+.experiences {
+	/*margin-top: 55px;*/
+	width: 380px;
+	/*padding: 5px;*/
+}
+
+.experiences div {
+	width: 5px;
+	height: 5px;
+	background-color: rgb(10,10,10);
+	border-radius: 50%;
+	display: inline-block;
+}
+
+/********************/
+/*  Footer Section  */
+/********************/
+
+footer {
+	background-color: #E6E6E6; 
+}
+
+footer nav {
+	margin: 0 auto;
+	width: 960px;
+	padding: 5px;
+	min-height: 50px;
+	text-align: center;
+	color: rgb(65, 166, 203);
+}
+
+footer nav a {
+	color: darkgray;
+}
+
+/**********************/
+/*  Create User Page  */
+/**********************/
+
+.create-user {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.create-user a {
+	color: rgb(3, 3, 3);
+}
+
+.create-user form, .create-user h1 {
+	text-align: center;
+}
+
+.create-user label {
+	width: 85px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.create-user input {
+}
+
+/****************/
+/*  Login Page  */
+/****************/
+
+.home-login {
+	position: relative;
+}
+
+.home-login a {
+	color: rgb(3, 3, 3);
+}
+
+.home-login form, .home-login h1 {
+	text-align: center;
+}
+
+.home-login label {
+	width: 75px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.home-login div:last-child {
+	text-align: center;
+}
+
+/****************/
+/*  Login Popup  */
+/****************/
+
+.button {
+    display: inline-block;
+    background: #000;
+    padding: 5px 10px;
+    z-index: 0;
+    color: #fff;
+}
+ 
+.overlay {
+    z-index: 5;
+    background: rgba(0, 0, 0, .50);
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+ 
+.popup {
+    padding: 10px 10px 35px;
+    background: rgb(250, 250, 250);
+    z-index: 999;
+    display: none;
+    position: absolute;
+    right: 149px;
+    top: 15px;
+    border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+}
+
+.close {
+	position: absolute;
+	padding-top: 0;
+	margin: 0;
+	top: -20px;
+	right: -15px;
+	border-radius: 50%;
+	background-color: rgb(65, 166, 203);
+}
+
+.close i {
+	font-size: 15pt;
+	padding: 1px 3px;
+	color: rgb(2507550, 250);
+}
+
+
+.no-notification {
+	color: rgb(3, 3, 3);
+	font-size: 18pt;
+}
+
+.no-notification.new-notification {
+	color: rgba(255, 0, 0, 0.75);
+	font-size: 18pt;
+}
+
+/*******************************************/
+/* Error Messages Creating Account & Login */
+/*******************************************/
+
+.create_user_error_message {
+  width: 600px;
+  background-color: white;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.create_user_error_message ul {
+	list-style-type: none;
+}
+
+.active {
+  display: block;
+}
+
+.login_fail {
+  background-color:white;
+  border-radius: 5px;
+  position: absolute;
+  right:230px;
+  top:325px;
+  width:250px;
+  height:85px;
+  padding:10px;
+  text-align: center;
+}
+
+.access-error {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/******************/
+/* Dashboard Page */
+/******************/
+
+.dashboard {
+	text-align: center;
+}
+
+.client-list {
+	background-color: rgb(250,250,250);
+	display: inline-block;
+	width: 650px;
+	min-height: 236px;
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+	vertical-align: top;
+}
+
+.create-inspection {
+	background-color: rgb(250,250,250);
+	display: inline-block;
+	width: 280px;
+	margin: 0 10px;
+	min-height: 200px;
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+	vertical-align: top;
+}
+
+.create-inspection form {
+	padding: 11px; 
+}
+
+.create-inspection form div:last-child {
+	padding-top: 5px;
+}
+
+.create-inspection input {
+	padding: 7px;
+	width: 240px; 
+}
+
+::-webkit-input-placeholder {
+   color: rgb(65, 166, 203);
+}
+
+.create-inspection form div:last-child {
+	text-align: center;
+}
+
+.client-list table {
+	width: 650px;
+	padding: 5px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.client-list table thead th {
+	padding: 5px;
+	text-align: left;
+	border-bottom: 1px solid #bbb;
+}
+
+.client-list tbody tr:nth-child(even) {
+	background-color: #eee;
+}
+
+.client-list td {
+	text-align: left;
+	padding: 5px 10px;
+}
+
+/**************/
+/* Report Page*/
+/**************/
+
+.report {
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+
+.report form {
+	overflow: hidden;
+}
+
+.report form div {
+	float: right;
+	padding-bottom: 3px; 
+}
+
+.report aside {
+	float: left;
+	width: 300px;
+	height: 200px;
+	padding: 5px;
+	background-color: rgb(250,250,250);
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+	vertical-align: top;
+}
+
+.report > div {
+	margin-left: 320px;
+}
+
+.report table thead th {
+	padding: 5px;
+	width: 300px;
+	border-bottom: 1px solid #bbb;
+}
+
+.report table td {
+	padding: 5px;
+}
+
+.report aside span {
+	padding-left: 7px;
+}
+
+.report textarea {
+	resize: none;
+	width: 630px;
+	background-color: rgb(250,250,250);
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+}
+
+::-webkit-input-placeholder {
+   color: rgb(65, 166, 203);
+}
+
+.view_comments {
+	width: 640px;
+	background-color: rgb(250,250,250);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+}
+
+.view_comments table {
+	width: 640px;
+	border-collapse: collapse;
+}
+
+.view_comments table thead th {
+	text-align: left;
+	border-bottom: 1px solid #bbb;
+}
+
+.view_comments tbody tr:nth-child(even) {
+	background-color: #eee;
+}
+
+
+/*********************/
+/* Notification Page */
+/*********************/
+
+.notification-page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.notification-content {
+	background-color: rgb(250, 250, 250);
+	border-radius: 5px;
+	box-shadow: 0 0 30px -15px #000000;
+	/*padding: 10px;*/
+}
+
+.notification-content div {
+	padding: 10px; 
+}
+
+.notification-content span {
+	color: red;
+}
+
+.notification-content table {
+	padding: 5px;
+	width: 960px;
+	border-collapse: collapse;
+}
+
+.notification-content table thead th {
+	text-align: left;
+	padding: 5px;
+	border-bottom: 1px solid #bbb;
+}
+
+.notification-content tbody td {
+	padding: 10px;
+}
+
+.notification-content tbody tr:nth-child(even) {
+	background-color: #eee;
+}
