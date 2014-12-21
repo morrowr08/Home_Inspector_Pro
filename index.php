@@ -19,6 +19,7 @@ Router::add('/dashboard', '/app/controllers/dashboard/home.php');
 Router::add('/inspector_report', '/app/controllers/reports/inspector_report.php');
 Router::add('/client_report', '/app/controllers/reports/client_report.php');
 Router::add('/reports/process_form', '/app/controllers/reports/process_form.php');
+Router::add('/reports/remove_report', '/app/controllers/reports/remove_report.php');
 // Router::add('/reports/send_email', '/app/controllers/reports/send_email.php');
 
 // Comments

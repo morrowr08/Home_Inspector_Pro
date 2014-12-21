@@ -90,12 +90,17 @@
         }); 
     }); 
 
+ //    $('.your-class').slick({
+	//   setting-name: setting-value
+	// });
+
     // Carousel
    $('.carousel').slick({
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  autoplay: true,
-	  autoplaySpeed: 2000
+	  autoplaySpeed: 5000,
+	  arrows: false
 	});
 
 

@@ -74,7 +74,7 @@ extract($controller->view->vars);
 						<input type="file" name="report_document" required>
 					</div>
 					<div>
-						<input type="email" name="email" placeholder="Email" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/i" required>
+						<input type="email" name="email" placeholder="Email" required>
 					</div>
 					<div>
 						<input type="tel" name="phone_number" placeholder="Phone Number" pattern="^[0-9]{10}" required>

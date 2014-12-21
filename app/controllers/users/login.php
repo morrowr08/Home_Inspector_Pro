@@ -33,11 +33,7 @@ $controller = new Controller();
 extract($controller->view->vars);
 
 ?>
-
-
-
-<!-- Notice this welcome variable was created above and passed into the view -->
-<h3><?php echo $welcome; ?></h3>
+<div class="login-page">
 	<div class="home-login">
 	<h1>Login</h1>
 		<form action="/login" method="POST">
@@ -49,8 +45,7 @@ extract($controller->view->vars);
 			<a href="/create_user" title="">New User? Create Account</a><br>		
 		</div>
 	</div>
-
-	<?php echo $failed ?>
+</div>
 
 
 

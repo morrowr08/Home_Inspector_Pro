@@ -31,6 +31,7 @@ extract($controller->view->vars);
 	</div>
 
 <!-- user creates account -->
+<div class="create-user-page">
 	<div class="create-user">
 		<h1>Create Account</h1>
 		<form action="/login" method="post">
@@ -53,3 +54,5 @@ extract($controller->view->vars);
 			<input type="checkbox" name="accept" value="1" required class="accept"> I accept the <a href="#" title="">Terms and Conditions</a></div>
 		</form>
 	</div>
+</div>
+

@@ -27,6 +27,7 @@ class Controller extends AppController {
 				$DVF->phone_number = $row['phone_number'];
 				$DVF->document = $row['report_document'];
 				$this->view->document = $row['report_document'];
+				$this->view->report_id = $row['report_id'];
 				$this->view->name = $row['first_name'] . ' ' . $row['last_name'];
 				$this->view->address = $row['address'];
 				$this->view->email = $row['email'];
@@ -89,6 +90,8 @@ extract($controller->view->vars);
 			</tbody>
 		</table>
 			<span>Click <a href="<?php echo $document; ?>" target="_blank">here</a> to view inspection report.</span>
+
+			<p class="delete-report"><a href="/reports/remove_report?report_id=<?php echo $report_id ?>">Delete Report</a></p>
 	</aside>
 
 	<div>

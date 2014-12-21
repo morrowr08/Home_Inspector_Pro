@@ -20,20 +20,17 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 	<!-- Carousel -->
-	<link rel="stylesheet" type="text/css" href="cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
-	<script type="text/javascript" src="cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/> -->
+	<!-- // <script type="text/javascript" src="cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script> -->
 
-	<script type="text/javascript" src="code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="/js/slick/slick.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/js/slick/slick.css"/>
+	<!-- // <script type="text/javascript" src="code.jquery.com/jquery-1.11.0.min.js"></script> -->
+	<!-- // <script type="text/javascript" src="code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="/js/slick-1.3.15/slick/slick.css"/>
 
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="/css/font-awesome-4.2.0/css/font-awesome.min.css">
 
-	<!-- Modernizr -->
-	<script src="/bower_components/modernizr/modernizr.js"></script>
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
@@ -50,6 +47,9 @@
 	
 	<!-- Include Common Scripts -->
 	<script src="/bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="/js/slick-1.3.15/slick/slick.js"></script>
+	<!-- Modernizr -->
+	<script src="/bower_components/modernizr/modernizr.js"></script>
 
 	<!-- Get JS -->
 	<script>var app = {};app.settings=<?php echo Payload::get_settings(); ?>;</script>

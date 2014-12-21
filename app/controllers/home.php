@@ -30,18 +30,28 @@ extract($controller->view->vars);
 		</div>
 		<div class="break3">
 			<div><strong>Experiences</strong></div>
-			<div><img src="../images/jeff.jpg"></div>
-			<div class="experiences">I have used John Doe’s Inspection service for the last three years. He has been amazing every time I have used his services, I highly recommend him.
-				<br><div></div> <div></div> <div></div>
+			<div class="carousel">
+				<div>
+					<div><img src="../images/ashley.jpg"></div>
+					<div class="experiences">I have used John Doe’s Inspection service for the last three years. He has been amazing every time I have used his services, I highly recommend him.</div>
+				</div>
+				<div>
+					<div><img src="../images/jeff.jpg"></div>
+					<div class="experiences">Mike's Inspection service was the absolute best, very professional and great price. I will definitely be using his services in the future.</div>
+				</div>
+				<div>
+					<div><img src="../images/kruggel.jpg"></div>
+					<div class="experiences">I have used John Doe’s Inspection service for the last three years. He has been amazing every time I have used his services, I highly recommend him.</div>
+				</div>
+				<div>
+					<div><img src="../images/mark.jpg"></div>
+					<div class="experiences">Mike's Inspection service was the absolute best, very professional and great price. I will definitely be using his services in the future.</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="carousel">
-	<div>your content</div>
-	<div>your content</div>
-	<div>your content</div>
-</div>
+
 
 
